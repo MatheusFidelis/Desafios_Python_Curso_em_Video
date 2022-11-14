@@ -19,8 +19,12 @@ if prestacao > salario * 0.7:
     print(f'Esse empréstimo seria com {vezes} parcelas de R${prestacao:.2f}')
     print(f'O valor da prestacao corresponde à {porcentagem:.2f}% do seu salario')
     print('Esse empréstimo não pode ser realizado')
+    
 elif prestacao <= 0:
     print('Valor incorreto. Refaça o orçamento.')
+    
 else:
     print(f'O valor da prestacao corresponde à {porcentagem:.2f}% do seu salario')
     print(f'A casa será paga em {vezes} prestações de R${prestacao:.2f}')
+    
+    
